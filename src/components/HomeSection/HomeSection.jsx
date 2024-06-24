@@ -11,11 +11,11 @@ import "./HomeSection.css";
 
 const HomeSection = () => {
   return (
-    <div className="w-screen bg-image flex justify-center h-screen">
+    <div className="w-screen bg-image flex justify-center min-h-screen">
       <div className="lg:w-5/6 2xl:w-2/3 ">
         <Navbar />
         <div className="flex flex-col justify-start mt-28 lg:w-3/4 xl:w-2/3 ">
-          <p className="lg:text-[5rem] xl:text-[6rem] 2xl:text-[7rem]  leading-none font-black      ">
+          <p className="lg:text-[5rem] xl:text-[6rem] 2xl:text-[6.5rem]  leading-none font-black      ">
             Enhance your business with AI & automation.
           </p>
 
@@ -33,7 +33,7 @@ const HomeSection = () => {
               lower costs, and boost customer engagement.
             </p>
           </div>
-          <div className="mt-10">
+          <div className="my-10">
             <Button className="rounded-full text-lg px-10 py-8 font-semibold">
               Book a free demo{" "}
               <CallIcon
