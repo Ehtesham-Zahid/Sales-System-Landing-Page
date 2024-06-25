@@ -5,7 +5,7 @@ const ServicesSection = () => {
     <div className="w-screen bg-black flex justify-center min-h-screen">
       <div className="w-full sm:w-5/6 2xl:w-3/4">
         <div className="flex flex-col items-center justify-center mt-10">
-          <p className="text-4xl min-[500px]:text-5xl min-[500px]:leading-tight md:text-6xl xl:text-7xl text-center text-white font-bold w-4/5 lg:w-2/3 2xl:w-3/5  my-10">
+          <p className="text-[2.5rem] min-[500px]:text-5xl min-[500px]:leading-tight leading-tight md:text-6xl xl:text-7xl text-center text-white font-bold w-4/5 lg:w-2/3 2xl:w-3/5  my-10">
             End-to-End AI-Powered Sales Systems
           </p>
           <p className="text-white min-[500px]:text-lg  w-5/6 lg:w-3/4 text-center font-medium tracking-wide">
