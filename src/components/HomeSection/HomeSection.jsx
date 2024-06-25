@@ -8,26 +8,29 @@ import ProfileImage1 from "../../assets/Images/profile-1.png";
 import ProfileImage2 from "../../assets/Images/profile-2.png";
 
 import "./HomeSection.css";
+import Header from "../Header/Header";
 
 const HomeSection = () => {
   return (
     <div className="w-screen bg-image flex justify-center min-h-screen">
-      <div className="lg:w-5/6 2xl:w-2/3 ">
-        <Navbar />
-        <div className="flex flex-col justify-start mt-28 lg:w-3/4 xl:w-2/3 ">
-          <p className="lg:text-[5rem] xl:text-[6rem] 2xl:text-[6.5rem]  leading-none font-black      ">
+      <div className="w-full sm:w-5/6 2xl:w-3/4   px-5 sm:px-0">
+        {/* <Navbar /> */}
+        <Header />
+        <div className="flex flex-col justify-start mt-32 sm:w-4/5 md:w-3/4 xl:w-2/3 ">
+          <p className="text-[3.25rem]  min-[500px]:text-[3.75rem] sm:text-[4rem]  md:text-[4.5rem] min-[850px]:text-[5rem] xl:text-[6rem] 2xl:text-[6.3rem]   leading-none font-black      ">
             Enhance your business with AI & automation.
           </p>
 
-          <div className=" mt-10 flex items-center  ">
-            <div className="relative flex  ">
-              <img src={ProfileImage1} className="w-40 rounded-full " />
+          <div className=" mt-10 flex flex-col md:flex-row items-center   ">
+            <div className="flex items-center justify-start w-full md:w-fit mb-10 md:mb-0">
+              <img src={ProfileImage1} className="w-20 rounded-full " />
               <img
                 src={ProfileImage2}
-                className="w-40 rounded-full absolute  left-14"
+                className="w-20 rounded-full relative -left-5"
               />
             </div>
-            <p className="font-medium text-lg tracking-wide ms-20  ">
+
+            <p className="font-medium lg:text-lg  tracking-wide ms-2 w-full md:w-2/3">
               Our tailored AI solutions, featuring custom AI chatbots, CRM
               automations, and workflows, are crafted to optimize efficiency,
               lower costs, and boost customer engagement.
