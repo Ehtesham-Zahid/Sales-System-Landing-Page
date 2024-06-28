@@ -4,6 +4,13 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
+  optimizeDeps: {
+    esbuildOptions: {
+      loader: {
+        ".glsl": "text",
+      },
+    },
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

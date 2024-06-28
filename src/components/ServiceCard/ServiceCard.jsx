@@ -11,6 +11,7 @@ import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 import GraphicEqIcon from "@mui/icons-material/GraphicEq";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
+import { Fade } from "react-awesome-reveal";
 
 const ServiceCard = (props) => {
   const { bgColor, title, description, icon } = props;
@@ -55,18 +56,20 @@ const ServiceCard = (props) => {
   });
 
   return (
-    <div
-      className={`relative w-64 h-80 mx-2 rounded-md ${bgColorClass} px-4 py-8 hover:cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-500`}
-    >
-      <div className="mb-5">{selectedIcon}</div>
-      <p className="mb-5 font-black text-xl tracking-wide">{title}</p>
-      <p className="mb-5 tracking-wide">{description}</p>
-      <div className="absolute bottom-5 left-3">
-        <Button className="rounded-full p-6 font-medium text-lg">
-          Start Today
-        </Button>
+    <Fade direction="up">
+      <div
+        className={`relative w-64 h-80 mx-2 rounded-md ${bgColorClass} px-4 py-8 hover:cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-500`}
+      >
+        <div className="mb-5">{selectedIcon}</div>
+        <p className="mb-5 font-black text-xl tracking-wide">{title}</p>
+        <p className="mb-5 tracking-wide">{description}</p>
+        <div className="absolute bottom-5 left-3">
+          <Button className="rounded-full p-6 font-medium text-lg">
+            Start Today
+          </Button>
+        </div>
       </div>
-    </div>
+    </Fade>
   );
 };
 

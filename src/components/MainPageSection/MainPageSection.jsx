@@ -1,5 +1,7 @@
+import BusinessCompatibiltySection from "../BusinessCompatibilitySection/BusinessCompatibiltySection";
 import FaqsSection from "../FaqsSection/FaqsSection";
 import HomeSection from "../HomeSection/HomeSection";
+import HowItWorksSection from "../HowItWorksSection/HowItWorksSection";
 import ServicesSection from "../ServicesSection/ServicesSection";
 import StorySection from "../StorySection/StorySection";
 
@@ -9,6 +11,8 @@ const MainPageSection = () => {
       <HomeSection />
       <ServicesSection />
       <StorySection />
+      <HowItWorksSection />
+      <BusinessCompatibiltySection />
       <FaqsSection />
     </div>
   );

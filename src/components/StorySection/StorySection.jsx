@@ -1,9 +1,10 @@
 import { Button } from "@/shadcn-components/ui/button";
+import { Fade } from "react-awesome-reveal";
 
 const StorySection = () => {
   return (
-    <div className="w-screen  flex justify-center">
-      <div className="w-full sm:w-5/6 2xl:w-3/4   px-5 sm:px-0 grid grid-cols-1 lg:grid-cols-2 gap-4 py-16">
+    <div className="w-screen  flex justify-center mb-8 lg:mb-28">
+      <div className="w-full sm:w-5/6 2xl:w-3/4   px-8 sm:px-0 grid grid-cols-1 lg:grid-cols-2 gap-4 py-16">
         <div className="col-span-1 flex flex-col justify-center  ">
           <div className="flex flex-col sm:flex-row justify-around sm:mb-8">
             <div className="w-full sm:w-64 h-52 flex flex-col justify-center items-center border border-black rounded-lg my-5 sm:my-0 lg:mx-1">
@@ -27,9 +28,11 @@ const StorySection = () => {
           </div>
         </div>
         <div className="col-span-1 flex flex-col mt-5 lg:mt-0">
-          <p className="text-5xl md:text-6xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-tight font-black mb-8">
-            Time-tested solutions that endure.
-          </p>
+          <Fade>
+            <p className="text-5xl md:text-6xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-tight font-black mb-8">
+              Time-tested solutions that endure.
+            </p>
+          </Fade>
           <p className="mb-8 text-lg md:text-xl lg:text-lg xl:text-xl font-medium tracking-wide">
             Many of our clients excel at lead generation but lack the systems to
             efficiently manage their incoming leads.

@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal";
 import Navbar from "../Navbar/Navbar";
 
 import { Button } from "@/shadcn-components/ui/button";
@@ -17,9 +18,11 @@ const HomeSection = () => {
         {/* <Navbar /> */}
         <Header />
         <div className="flex flex-col justify-start mt-32 sm:w-4/5 md:w-3/4 xl:w-2/3 ">
-          <p className="text-[3.25rem]  min-[500px]:text-[3.75rem] sm:text-[4rem]  md:text-[4.5rem] min-[850px]:text-[5rem] xl:text-[6rem] 2xl:text-[6.3rem]   leading-none font-black      ">
-            Enhance your business with AI & automation.
-          </p>
+          <Fade>
+            <p className="home-text text-[3.25rem]  min-[500px]:text-[3.75rem] sm:text-[4rem]  md:text-[4.5rem] min-[850px]:text-[5rem] xl:text-[6rem] 2xl:text-[6.3rem]   leading-none font-black      ">
+              Enhance your business with AI & automation.
+            </p>
+          </Fade>
 
           <div className=" mt-10 flex flex-col md:flex-row items-center   ">
             <div className="flex items-center justify-start w-full md:w-fit mb-10 md:mb-0">
