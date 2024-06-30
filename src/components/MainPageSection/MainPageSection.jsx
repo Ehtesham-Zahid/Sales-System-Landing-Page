@@ -1,5 +1,6 @@
 import BusinessCompatibiltySection from "../BusinessCompatibilitySection/BusinessCompatibiltySection";
 import FaqsSection from "../FaqsSection/FaqsSection";
+import Footer from "../Footer/Footer";
 import HomeSection from "../HomeSection/HomeSection";
 import HowItWorksSection from "../HowItWorksSection/HowItWorksSection";
 import ServicesSection from "../ServicesSection/ServicesSection";
@@ -14,6 +15,7 @@ const MainPageSection = () => {
       <HowItWorksSection />
       <BusinessCompatibiltySection />
       <FaqsSection />
+      <Footer />
     </div>
   );
 };
