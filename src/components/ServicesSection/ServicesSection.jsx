@@ -3,7 +3,7 @@ import ServiceCard from "../ServiceCard/ServiceCard";
 const ServicesSection = () => {
   return (
     <div
-      className="w-screen bg-black flex justify-center min-h-screen mb-8 lg:mb-28"
+      className="  bg-black flex justify-center min-h-screen mb-8 lg:mb-28"
       name="services"
     >
       <div className="w-full sm:w-5/6 2xl:w-3/4">

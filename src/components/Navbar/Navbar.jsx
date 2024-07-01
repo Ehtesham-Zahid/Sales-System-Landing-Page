@@ -12,15 +12,45 @@ const Navbar = () => {
       <img src={Logo} className="w-44" />
 
       <ul className="flex text-lg font-medium   text-black">
-        {" "}
         <li className="mx-5 cool-link cursor-pointer ">
-          <a>How it works</a>
+          {/* <a>How it works</a> */}
+          <Link
+            to="how-it-works"
+            // activeClass="text-red-500"
+            spy={true}
+            smooth={true}
+            // className=" cursor-pointer text-2xl hover:underline hover:text-red-500 "
+          >
+            {" "}
+            {/* <div className=" drawer-toggle"></div> */}
+            How it works
+          </Link>
         </li>
         <li className="mx-5 cool-link cursor-pointer ">
-          <a>Services</a>
+          <Link
+            to="services"
+            // activeClass="text-red-500"
+            spy={true}
+            smooth={true}
+            // className=" cursor-pointer text-2xl hover:underline hover:text-red-500 "
+          >
+            {" "}
+            {/* <div className=" drawer-toggle"></div> */}
+            Services
+          </Link>
         </li>{" "}
         <li className="mx-5 cool-link cursor-pointer ">
-          <a>Get Started</a>
+          <Link
+            to="get-started"
+            // activeClass="text-red-500"
+            spy={true}
+            smooth={true}
+            // className=" cursor-pointer text-2xl hover:underline hover:text-red-500 "
+          >
+            {" "}
+            {/* <div className=" drawer-toggle"></div> */}
+            Get Started
+          </Link>
         </li>
       </ul>
 
@@ -32,44 +62,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// {/* <li className="mx-5 cool-link cursor-pointer ">
-// {/* <a>How it works</a> */}
-// <Link
-//   to="how-it-works"
-//   // activeClass="text-red-500"
-//   spy={true}
-//   smooth={true}
-//   // className=" cursor-pointer text-2xl hover:underline hover:text-red-500 "
-// >
-//   {" "}
-//   {/* <div className=" drawer-toggle"></div> */}
-//   How it works
-// </Link>
-// </li>
-// <li className="mx-5 cool-link cursor-pointer ">
-// <Link
-//   to="services"
-//   // activeClass="text-red-500"
-//   spy={true}
-//   smooth={true}
-//   // className=" cursor-pointer text-2xl hover:underline hover:text-red-500 "
-// >
-//   {" "}
-//   {/* <div className=" drawer-toggle"></div> */}
-//   Services
-// </Link>
-// </li>{" "}
-// <li className="mx-5 cool-link cursor-pointer ">
-// <Link
-//   to="get-started"
-//   // activeClass="text-red-500"
-//   spy={true}
-//   smooth={true}
-//   // className=" cursor-pointer text-2xl hover:underline hover:text-red-500 "
-// >
-//   {" "}
-//   {/* <div className=" drawer-toggle"></div> */}
-//   Get Started
-// </Link>
-// </li> */}

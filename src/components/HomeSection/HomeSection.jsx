@@ -19,7 +19,7 @@ const HomeSection = () => {
         <Header />
         <div className="flex flex-col justify-start mt-32 sm:w-4/5 md:w-3/4 xl:w-2/3 ">
           <Fade>
-            <p className="home-text text-[3.25rem]  min-[500px]:text-[3.75rem] sm:text-[4rem]  md:text-[4.5rem] min-[850px]:text-[5rem] xl:text-[6rem] 2xl:text-[6.3rem]   leading-none font-black      ">
+            <p className="home-text text-[3.75rem]  min-[500px]:text-[4.25rem] sm:text-[5rem]  md:text-[5rem] min-[850px]:text-[5.5rem] xl:text-[6.5rem] 2xl:text-[7rem]   leading-none font-black      ">
               Enhance your business with AI & automation.
             </p>
           </Fade>
