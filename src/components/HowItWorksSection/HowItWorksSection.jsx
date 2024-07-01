@@ -4,7 +4,10 @@ import { Fade } from "react-awesome-reveal";
 
 const HowItWorksSection = () => {
   return (
-    <div className="w-screen   flex justify-center mb-8 lg:mb-28">
+    <div
+      className="w-screen   flex justify-center mb-8 lg:mb-28"
+      name="how-it-works"
+    >
       <div className="w-full sm:w-5/6 2xl:w-3/4   px-8 sm:px-0">
         <Fade>
           <p className="font-black text-4xl mb-8 lg:mb-12 min-[500px]:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
