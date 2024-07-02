@@ -70,7 +70,13 @@ const PriceSection = () => {
               Bespoke strategy plan
             </p>
             <Button className="bg-white hover:bg-neutral-100 rounded-full text-xl py-7 px-6 text-black font-bold mt-6">
-              Book a Demo Call
+              <a
+                href="https://tally.so/r/w52XQo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book a Demo Call
+              </a>
             </Button>
           </div>
           <div className="col-span-1 bg-purple-300 py-8 px-6 my-2.5">

@@ -15,7 +15,13 @@ const BusinessCompatibiltySection = () => {
           </p>
           <div>
             <Button className="rounded-full bg-white hover:bg-neutral-200 text-xl text-black font-semibold px-8 py-6">
-              Book a Demo Call
+              <a
+                href="https://tally.so/r/w52XQo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book a Demo Call
+              </a>
             </Button>
           </div>
         </div>

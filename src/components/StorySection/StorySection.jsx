@@ -1,5 +1,6 @@
 import { Button } from "@/shadcn-components/ui/button";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-scroll";
 
 const StorySection = () => {
   return (
@@ -48,7 +49,9 @@ const StorySection = () => {
               className="rounded-full text-xl font-semibold px-7 py-6"
               variant="secondary"
             >
-              Start Today
+              <Link to="get-started" spy={true} smooth={true}>
+                Start Today
+              </Link>
             </Button>
           </div>
         </div>

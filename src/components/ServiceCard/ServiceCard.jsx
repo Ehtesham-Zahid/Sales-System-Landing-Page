@@ -12,6 +12,7 @@ import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 import GraphicEqIcon from "@mui/icons-material/GraphicEq";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-scroll";
 
 const ServiceCard = (props) => {
   const { bgColor, title, description, icon } = props;
@@ -65,7 +66,9 @@ const ServiceCard = (props) => {
         <p className="mb-5 tracking-wide text-lg">{description}</p>
         <div className="absolute bottom-6 left-3">
           <Button className="rounded-full p-6 font-medium text-lg">
-            Start Today
+            <Link to="get-started" spy={true} smooth={true}>
+              Start Today
+            </Link>
           </Button>
         </div>
       </div>

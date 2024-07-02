@@ -1,6 +1,7 @@
 import CallIcon from "@mui/icons-material/Call";
 
 import { Button } from "@/shadcn-components/ui/button";
+import { Link } from "react-router-dom";
 
 const FooterCta = () => {
   return (
@@ -14,11 +15,17 @@ const FooterCta = () => {
       <div>
         <div className=" ">
           <Button className="rounded-full text-xl lg:text-2xl px-6 py-8 font-semibold">
-            Book a free demo{" "}
-            <CallIcon
-              fontSize="large"
-              className="ms-10 bg-white text-black rounded-full p-1  "
-            />
+            <a
+              href="https://tally.so/r/w52XQo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book a free demo{" "}
+              <CallIcon
+                fontSize="large"
+                className="ms-10 bg-white text-black rounded-full p-1"
+              />
+            </a>
           </Button>
         </div>
       </div>
