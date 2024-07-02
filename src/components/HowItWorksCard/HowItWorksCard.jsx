@@ -14,8 +14,8 @@ const HowItWorksCard = (props) => {
       >
         {props.number}
       </p>
-      <p className="text-xl font-black mb-4">{props.title}</p>
-      <p className="text-lg font-medium">{props.description}</p>
+      <p className="text-2xl font-black mb-4">{props.title}</p>
+      <p className="text-lg xl:text-xl font-medium">{props.description}</p>
     </div>
   );
 };

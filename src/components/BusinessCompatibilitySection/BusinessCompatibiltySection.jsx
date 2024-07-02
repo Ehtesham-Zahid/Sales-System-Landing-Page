@@ -3,18 +3,18 @@ import BusinessCompatibilityCard from "../BusinessCompatibilityCard/BusinessComp
 
 const BusinessCompatibiltySection = () => {
   return (
-    <div className="w-screen bg-black flex justify-center min-h-screen mb-8 lg:mb-28 py-10 lg:py-36">
+    <div className="  bg-black flex justify-center min-h-screen mb-8 lg:mb-28 py-10 lg:py-36">
       <div className="w-full sm:w-5/6 2xl:w-3/4 lg:grid lg:grid-cols-2 lg:gap-4 xl:gap-20   px-8 sm:px-0">
         <div className="lg:col-span-1 flex flex-col mt-7 ">
           <p className="font-black text-white text-4xl mb-8 min-[500px]:text-5xl md:text-6xl lg:text-5xl xl:text-7xl ">
             Is your business a good fit?
           </p>
-          <p className="tracking-wide   min-[500px]:text-lg  font-medium text-white mb-8  ">
+          <p className="tracking-wide text-lg   min-[500px]:text-xl  font-medium text-white mb-8  ">
             If your business has any of these problems, it's highly likely
             Unorthodox can help you.
           </p>
           <div>
-            <Button className="rounded-full bg-white hover:bg-neutral-200 text-lg text-black font-semibold px-8 py-6">
+            <Button className="rounded-full bg-white hover:bg-neutral-200 text-xl text-black font-semibold px-8 py-6">
               Book a Demo Call
             </Button>
           </div>

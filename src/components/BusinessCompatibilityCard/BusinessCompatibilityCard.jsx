@@ -36,10 +36,10 @@ const BusinessCompatibilityCard = (props) => {
       >
         <div className="mb-5 sm:me-5">{selectedIcon}</div>
         <div className="flex flex-col">
-          <p className="mb-5 font-black text-2xl  tracking-wide">
+          <p className="mb-5 font-black text-3xl  tracking-wide">
             {props.title}
           </p>
-          <p className=" tracking-wide sm:text-lg">{props.desc}</p>
+          <p className=" tracking-wide text-lg sm:text-xl">{props.desc}</p>
         </div>
       </div>
     </Fade>

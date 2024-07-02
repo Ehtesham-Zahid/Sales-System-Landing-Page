@@ -58,12 +58,12 @@ const ServiceCard = (props) => {
   return (
     <Fade direction="up">
       <div
-        className={`relative w-64 h-80 mx-2 rounded-md ${bgColorClass} px-4 py-8 hover:cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-500`}
+        className={`relative w-72 h-[315px] mx-2 rounded-md ${bgColorClass} px-4 py-8 hover:cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-500`}
       >
         <div className="mb-5">{selectedIcon}</div>
-        <p className="mb-5 font-black text-xl tracking-wide">{title}</p>
-        <p className="mb-5 tracking-wide">{description}</p>
-        <div className="absolute bottom-5 left-3">
+        <p className="mb-5 font-black text-2xl tracking-wide">{title}</p>
+        <p className="mb-5 tracking-wide text-lg">{description}</p>
+        <div className="absolute bottom-6 left-3">
           <Button className="rounded-full p-6 font-medium text-lg">
             Start Today
           </Button>

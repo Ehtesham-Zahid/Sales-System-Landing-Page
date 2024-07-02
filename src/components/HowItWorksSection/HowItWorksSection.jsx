@@ -20,7 +20,7 @@ const HowItWorksSection = () => {
           process.
         </p>
         <div className="mb-8 lg:mb-12">
-          <Button className="rounded-full text-lg py-6   bg-purple-500 hover:bg-purple-600">
+          <Button className="rounded-full text-xl py-6   bg-green-500 hover:bg-green-600">
             Start working with us today
           </Button>
         </div>

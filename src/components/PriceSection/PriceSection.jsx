@@ -13,11 +13,11 @@ const PriceSection = () => {
         </p>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2  ">
           <div className="bg-black col-span-1 py-8 px-6 my-2.5">
-            <div className="flex flex-col   mb-10">
-              <p className="rounded-full p-1.5 bg-cyan-500 text-white w-56 text-center text-lg font-bold mb-4">
+            <div className="flex flex-col lg:flex-row  mb-10">
+              <p className="rounded-full p-1.5 bg-cyan-500 text-white w-56 text-center text-lg font-bold mb-4 me-4">
                 3 MONTHS BUILD TIME
               </p>
-              <p className="rounded-full p-1.5 bg-cyan-500 text-white w-56 text-center text-lg font-bold">
+              <p className="rounded-full p-1.5 bg-cyan-500 text-white w-56 text-center text-lg font-bold lg:mb-4">
                 LIMITED VISIBILITY
               </p>
             </div>

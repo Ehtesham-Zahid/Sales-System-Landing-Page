@@ -16,6 +16,7 @@ import { EffectCreative } from "swiper/modules";
 import Slide1 from "../../assets/Images/Slider/1.jpg";
 import Slide2 from "../../assets/Images/Slider/2.jpg";
 import Slide3 from "../../assets/Images/Slider/3.jpg";
+import Slide4 from "../../assets/Images/Slider/4.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -132,54 +133,33 @@ export default function Slider() {
                 </Button>
               </div>
             </SwiperSlide>
-            {/* <SwiperSlide className="bg-blue-200 flex flex-col items-start justify-center px-10">
-            <img src={Slide1} className="h-3/5 rounded-md w-full " />
-            <div className="flex w-full justify-start mt-3">
-              <p className="bg-blue-400 rounded-full text-lg font-bold p-2 me-2">
-                MARKETING
+            <SwiperSlide className="bg-yellow-200 flex flex-col items-start justify-start px-4 py-4 sm:py-5  lg:px-10 xl:py-12 xl:px-20  relative  ">
+              <img
+                src={Slide4}
+                className="h-64 min-[500px]:h-72    lg:h-80 xl:h-96 2xl:h-[450px] rounded-md w-full "
+              />
+              <div className="flex w-full justify-start mt-3">
+                <p className="bg-yellow-400 rounded-full text-lg font-bold p-2 me-2">
+                  MARKETING
+                </p>
+                <p className="bg-yellow-400 rounded-full text-lg font-bold p-2">
+                  DEVELOPER
+                </p>
+              </div>
+              <p className="mt-8 lg:mt-6 sm:mt-10 xl:mt-10 text-[1.6rem] min-[500px]:text-3xl md:text-4xl font-bold  text-yellow-600 w-11/12 md:w-5/6 tracking-wide">
+                Insight-Driven Success: Unorthodox AI's Role in Transforming
+                News UK's Campaign Analytics
               </p>
-              <p className="bg-blue-400 rounded-full text-lg font-bold p-2">
-                DEVELOPER
+              <p className="text-xl md:text-2xl font-medium tracking-wide text-yellow-600 mt-8 sm:mt-10 lg:mt-6 w-11/12 md:w-5/6 xl:mt-10">
+                Insight-Driven Success: Unorthodox AI's Role in Transforming
+                News UK's Campaign Analytics
               </p>
-            </div>
-            <p className="mt-6 text-4xl font-bold  text-blue-600 w-4/5 tracking-wide">
-              Insight-Driven Success: Unorthodox AI's Role in Transforming News
-              UK's Campaign Analytics
-            </p>
-            <p className="text-xl font-medium tracking-wide text-blue-600 mt-6">
-              Insight-Driven Success: Unorthodox AI's Role in Transforming News
-              UK's Campaign Analytics
-            </p>
-            <div>
-              <Button className="bg-blue-600 hover:bg-blue-700 rounded-full text-xl px-8 py-7 mt-6">
-                Read Case Study
-              </Button>
-            </div>
-          </SwiperSlide>{" "}
-          <SwiperSlide className="bg-blue-200 flex flex-col items-start justify-center px-10">
-            <img src={Slide1} className="h-3/5 rounded-md w-full " />
-            <div className="flex w-full justify-start mt-3">
-              <p className="bg-blue-400 rounded-full text-lg font-bold p-2 me-2">
-                MARKETING
-              </p>
-              <p className="bg-blue-400 rounded-full text-lg font-bold p-2">
-                DEVELOPER
-              </p>
-            </div>
-            <p className="mt-6 text-4xl font-bold  text-blue-600 w-4/5 tracking-wide">
-              Insight-Driven Success: Unorthodox AI's Role in Transforming News
-              UK's Campaign Analytics
-            </p>
-            <p className="text-xl font-medium tracking-wide text-blue-600 mt-6">
-              Insight-Driven Success: Unorthodox AI's Role in Transforming News
-              UK's Campaign Analytics
-            </p>
-            <div>
-              <Button className="bg-blue-600 hover:bg-blue-700 rounded-full text-xl px-8 py-7 mt-6">
-                Read Case Study
-              </Button>
-            </div>
-          </SwiperSlide> */}
+              <div className="static bottom-8 min-[500px]:bottom-10 left-5 lg:left-8">
+                <Button className="bg-yellow-600 hover:bg-yellow-700 rounded-full text-xl px-8 py-7 mt-8 lg:mt-6 xl:mt-10">
+                  Read Case Study
+                </Button>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
         {/* </div> */}

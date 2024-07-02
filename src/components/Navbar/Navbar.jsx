@@ -9,10 +9,10 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center py-8 px-6">
-      <img src={Logo} className="w-44" />
+      <img src={Logo} className="w-52" />
 
-      <ul className="flex text-lg font-medium   text-black">
-        <li className="mx-5 cool-link cursor-pointer ">
+      <ul className="flex text-xl font-medium   text-black">
+        <li className="mx-6 cool-link cursor-pointer  ">
           {/* <a>How it works</a> */}
           <Link
             to="how-it-works"
@@ -26,7 +26,7 @@ const Navbar = () => {
             How it works
           </Link>
         </li>
-        <li className="mx-5 cool-link cursor-pointer ">
+        <li className="mx-6 cool-link cursor-pointer ">
           <Link
             to="services"
             // activeClass="text-red-500"
@@ -39,7 +39,7 @@ const Navbar = () => {
             Services
           </Link>
         </li>{" "}
-        <li className="mx-5 cool-link cursor-pointer ">
+        <li className="mx-6 cool-link cursor-pointer ">
           <Link
             to="get-started"
             // activeClass="text-red-500"
@@ -54,7 +54,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <Button className="transition ease-in-out     hover:-translate-y-1 hover:scale-110  duration-300 bg-transparent hover:bg-white rounded-full text-black font-semibold border border-black  text-lg p-5">
+      <Button className="transition ease-in-out    hover:-translate-y-1 hover:scale-110  duration-300 bg-transparent hover:bg-white rounded-full text-black font-semibold border border-black  text-xl p-5">
         Start today
       </Button>
     </div>

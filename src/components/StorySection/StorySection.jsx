@@ -29,15 +29,15 @@ const StorySection = () => {
         </div>
         <div className="col-span-1 flex flex-col mt-5 lg:mt-0">
           <Fade>
-            <p className="text-5xl md:text-6xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-tight font-black mb-8">
+            <p className="text-5xl md:text-6xl    lg:text-5xl 2xl:text-6xl leading-tight font-black mb-10">
               Time-tested solutions that endure.
             </p>
           </Fade>
-          <p className="mb-8 text-lg md:text-xl lg:text-lg xl:text-xl font-medium tracking-wide">
+          <p className="mb-10 text-lg md:text-xl   xl:text-2xl font-medium tracking-wide">
             Many of our clients excel at lead generation but lack the systems to
             efficiently manage their incoming leads.
           </p>
-          <p className="mb-8 text-lg md:text-xl lg:text-lg  xl:text-xl font-medium tracking-wide">
+          <p className="mb-10 text-lg md:text-xl   xl:text-2xl font-medium tracking-wide">
             By leveraging AI, we streamline lead qualification, replacing manual
             hours and automating processes. This enables you to handle a higher
             volume of leads each month, increase closures, and drastically
@@ -45,7 +45,7 @@ const StorySection = () => {
           </p>
           <div>
             <Button
-              className="rounded-full text-lg font-semibold px-7 py-6"
+              className="rounded-full text-xl font-semibold px-7 py-6"
               variant="secondary"
             >
               Start Today

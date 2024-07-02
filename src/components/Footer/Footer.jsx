@@ -16,17 +16,17 @@ const Footer = () => {
           <footer className="footer   my-5 mb-10 md:my-20 lg:my-40">
             <aside>
               <img src={Logo} className="w-52 mb-4" />
-              <p className="text-lg font-medium w-4/5 ">
+              <p className="text-xl font-medium w-4/5 ">
                 We supercharge our clients businesses with smart AI solutions
                 and systemised processes.
               </p>
             </aside>
             <nav className="me-8">
               <h6 className="footer-title text-xl tracking-wider">PAGES</h6>
-              <a className="link link-hover  text-base tracking-wide font-medium  mb-2.5">
+              <a className="link link-hover  text-lg tracking-wide font-medium  mb-2.5">
                 Home
               </a>
-              <a className="link link-hover text-base tracking-wide font-medium">
+              <a className="link link-hover text-lg tracking-wide font-medium">
                 Products
               </a>
             </nav>
@@ -34,10 +34,10 @@ const Footer = () => {
               <h6 className="footer-title text-xl tracking-wider">
                 CONTACT US
               </h6>
-              <a className="link link-hover  text-base tracking-wide font-medium flex items-center mb-2.5">
+              <a className="link link-hover  text-lg tracking-wide font-medium flex items-center mb-2.5">
                 <MailOutlineIcon className="me-1.5" /> hello@unorthodox.digital
               </a>
-              <a className="link link-hover  text-base tracking-wide font-medium flex items-center ">
+              <a className="link link-hover  text-lg tracking-wide font-medium flex items-center ">
                 <LocationOnIcon className="me-1.5" /> Pakistan
               </a>
             </nav>
