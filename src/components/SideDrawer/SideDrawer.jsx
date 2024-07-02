@@ -9,6 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 import Logo from "../../assets/Logo/logo.png";
+import { Link } from "react-scroll";
 
 const SideDrawer = () => {
   return (
@@ -22,13 +23,44 @@ const SideDrawer = () => {
         </div>
       </div>
       <SheetContent side="left" className="w-80">
-        <ul className="w-full flex flex-col justify-center items-center mt-2">
+        <ul className="w-full flex flex-col justify-center items-center mt-2  text-lg">
           <li className="border-b-2 border-neutral-300 w-full my-4  ">
             <SheetClose asChild>
-              <a className="font-semibold flex justify-between  ">
-                MEN
+              <Link
+                className="font-semibold flex justify-between  "
+                to="how-it-works"
+                spy={true}
+                smooth={true}
+              >
+                How it works
                 <KeyboardArrowRightIcon />
-              </a>
+              </Link>
+            </SheetClose>
+          </li>
+          <li className="border-b-2 border-neutral-300 w-full my-4  ">
+            <SheetClose asChild>
+              <Link
+                className="font-semibold flex justify-between  "
+                to="services"
+                spy={true}
+                smooth={true}
+              >
+                Services
+                <KeyboardArrowRightIcon />
+              </Link>
+            </SheetClose>
+          </li>
+          <li className="border-b-2 border-neutral-300 w-full my-4  ">
+            <SheetClose asChild>
+              <Link
+                className="font-semibold flex justify-between  "
+                to="get-started"
+                spy={true}
+                smooth={true}
+              >
+                Get Started
+                <KeyboardArrowRightIcon />
+              </Link>
             </SheetClose>
           </li>
         </ul>
