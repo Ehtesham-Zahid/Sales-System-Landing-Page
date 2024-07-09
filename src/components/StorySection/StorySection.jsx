@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const StorySection = () => {
   return (
-    <div className="w-screen  flex justify-center mb-8 lg:mb-28">
+    <div className="  flex justify-center mb-8 lg:mb-28">
       <div className="w-full sm:w-5/6 2xl:w-3/4   px-8 sm:px-0 grid grid-cols-1 lg:grid-cols-2 gap-4 py-16">
         <div className="col-span-1 flex flex-col justify-center  ">
           <div className="flex flex-col sm:flex-row justify-around sm:mb-8">

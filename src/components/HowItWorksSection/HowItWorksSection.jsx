@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 const HowItWorksSection = () => {
   return (
     <div
-      className="w-screen   flex justify-center mb-8 lg:mb-28"
+      className="   flex justify-center mb-8 lg:mb-28"
       name="how-it-works"
     >
       <div className="w-full sm:w-5/6 2xl:w-3/4   px-8 sm:px-0">

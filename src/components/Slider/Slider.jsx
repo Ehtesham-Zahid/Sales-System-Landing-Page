@@ -27,7 +27,7 @@ import "swiper/css/scrollbar";
 export default function Slider() {
   return (
     <>
-      <div className="w-screen   flex justify-center items-start    ">
+      <div className="   flex justify-center items-start    ">
         <div className="  w-11/12 sm:w-5/6 2xl:w-3/4 ">
           {/* <div className="h-5/6"> */}
           <p className="text-4xl lg:text-5xl font-black mb-10 text-center">

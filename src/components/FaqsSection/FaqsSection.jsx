@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 
 const FaqsSection = () => {
   return (
-    <div className="w-screen flex justify-center  mb-8 lg:mb-20 py-10 h-full">
+    <div className=" flex justify-center  mb-8 lg:mb-20 py-10 h-full">
       <div className="w-full sm:w-5/6 2xl:w-3/4 lg:grid lg:grid-cols-2 lg:gap-4 xl:gap-20   px-8 sm:px-0">
         <div className="lg:col-span-1 flex flex-col mt-7 ">
           <Fade>

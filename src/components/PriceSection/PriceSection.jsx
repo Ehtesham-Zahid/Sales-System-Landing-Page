@@ -4,7 +4,7 @@ import DoneIcon from "@mui/icons-material/Done";
 const PriceSection = () => {
   return (
     <div
-      className="w-screen   flex justify-center min-h-screen"
+      className="  flex justify-center min-h-screen"
       name="get-started"
     >
       <div className="w-full sm:w-5/6 2xl:w-3/4   px-5 sm:px-0">

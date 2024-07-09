@@ -13,7 +13,7 @@ import Header from "../Header/Header";
 
 const HomeSection = () => {
   return (
-    <div className="w-screen bg-image flex justify-center min-h-screen">
+    <div className=" bg-image flex justify-center min-h-screen">
       <div className="w-11/12 sm:w-5/6 2xl:w-3/4   ">
         {/* <Navbar /> */}
         <Header />
